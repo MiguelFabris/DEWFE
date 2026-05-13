@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ESTILIZANDO TODO O HEADER E NAVEGAÇÃO */
+
+body{
+    background-color: #EEEEEE;
+}
+header{
+    background-image: -webkit-linear-gradient(left, #E8E7D8 50%, #FAA912);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    height: 170px;
+}
+#logo h1{
+    float: left;
+    font-size: 100px;
+    font-style: italic;
+    margin: 1vh 0 0 5vh;
+}
+#logo-img{
+    width: 125px;
+    height: 125px;
+    float: left;
+    transition: 1s;
+}
+#logo-img:hover{
+    transform: rotate(360deg);
+    transition: 1s;
+}
+nav{
+    float: right;
+    margin: 5vh 10vh 0 0;
+}
+nav ul{
+    list-style-type: none;
+    font-weight: bold;
+    display: flex;
+    gap: 5vh;
+    margin: 0;
+    padding: 0;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}   
+nav a:hover{
+    color: black;
+    transition: 1.5s;
+}
+
+/* ESTILIZANDO O CONTEÚDO PRINCIPAL */
+
+main{
+    align-items: center;
+    text-align: center;
+    background-color: #EEEEEE;
+    height: 120vh;
+}
+#header-main{
+    background-color: white;
+}
+#header-main h2{
+    font-size: 80px;
+    padding: 1vh 0 0 0;
+    margin: 0 0 6vh 0;
+}
+#header-main p{
+    font-style: italic;
+    margin: 0 10vh 10vh 10vh;
+    padding: 0 0 1vh 0;
+}
+#proximos-eventos{
+    background-color: white;
+    gap: 5vh;
+    justify-content: center;
+    border-radius: 20px;
+    margin-bottom: 5vh;
+    height: 90vh;
+    width: 70%;
+    margin: auto;
+}
+#proximos-eventos h3{
+    font-size: 80px;
+    padding: 30px 0 0;
+    color: #FAA912;
+    
+}
+.subtitulo-proximos-eventos{
+    font-style: italic;
+    margin: 0 10vh 5vh 10vh;
+}
+
+.evento{
+    display: flex;
+    width: 95%;
+    border: 2px solid #FAA912;
+    border-radius: 10px;    
+    margin: 0 0 2vh 3.5vh;
+    text-align: left;
+    transition: 1s;
+}
+
+.evento:hover{
+    color: white;
+    border: 2px solid #ffffff;
+    background-color: #FAA912;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+    transform: scale(1.03);
+    .data, .local{
+        transition: all 0.5s ease-in-out;
+        color: white;
+    }
+}
+
+.evento img{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.dados-evento h4{
+    font-size: 40px;
+    margin: 10px 0 15px 0;
+}
+.data{
+    font-size: 20px;
+    color: black;
+    margin: 0 0 15px 0;
+    transition: all 0.5s ease-in-out;
+}
+.local{
+    font-size: 15px;
+    color: gray;
+    font-style: italic;
+    transition: all 0.5s ease-in-out;
+}
+
+/* ESTILIZANDO O RODAPÉ */
+
+footer{
+    background-image: -webkit-linear-gradient(right, #E8E7D8 60%, #FAA912);
+    margin-top: 5vh;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+/* ESTILIZANDO A PÁGINA DE CONTATO */
+
